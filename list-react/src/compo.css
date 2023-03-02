@@ -1,0 +1,29 @@
+.body-page{
+  background-image: url("https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png");
+  background-size:auto;
+  background-position: center;
+  width: 100%;
+
+}
+.load-page{
+
+  background-size: cover;
+  background-position: center;
+}
+.title-class{
+  text-align: center;
+  margin-top: 3rem;
+  
+}
+
+.load {
+
+    
+    
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}

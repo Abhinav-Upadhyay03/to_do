@@ -1,14 +1,5 @@
-.body-page{
-  background-image: url("https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png");
-  background-size:auto;
-  background-position: center;
-  width: 100%;
-
-}
-.load-page{
-
-  background-size: cover;
-  background-position: center;
+body{
+  background-image: url(https://img.freepik.com/free-vector/white-background-with-hexagonal-line-pattern-design_1017-28442.jpg?w=740&t=st=1677959568~exp=1677960168~hmac=31a6cac0e944dfcf320bfb820de86cd0170438ce9123f6bbb532027db4e31a21);
 }
 .title-class{
   text-align: center;
@@ -26,4 +17,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+.con-title{
+  font-size: 1.3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 540;
+
+  
+}
+.con-img{
+  width: 20%;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+  /* margin: 1.5rem; */
+
+}
+.con-b2{
+  margin: 2rem;
 }

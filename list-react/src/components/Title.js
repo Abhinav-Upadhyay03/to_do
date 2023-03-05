@@ -2,21 +2,21 @@ import React from 'react'
 
 const Title = () => {
   return (
-    <div className='title-class'>
-      
-      <div className='con-body'>
+    <div className='main-div'>
+      <div className='child-div'>
         <figure>
-          <img className='con-img' src="https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_960_720.png" alt="" />
-          <h1>To Do List</h1>
-          <figcaption className='con-title'>Let's have a look at your list👀</figcaption>
+          <img src= "./images/todo.jpg" alt="to-do logo" />
+          <figcaption>Add Your List Here👇🏻</figcaption>
         </figure>
-        <input className='con-input' type="text" placeholder='Add your element' />
-        <button className='con-b1'>Add</button>
-
+        <div className='addItems'>
+          <input type="text" placeholder='Add Item' className='form-control'
+          // value={inputdata}
+          // onChange = {(event) => setInputData(event.target.value)}
+           />
+        </div>
       </div>
-      <button className='con-b2'>DONE</button>
     </div>
-  )
+  ) 
 }
 
 export default Title

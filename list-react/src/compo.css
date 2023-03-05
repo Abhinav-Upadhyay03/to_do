@@ -1,37 +1,79 @@
-body{
-  background-image: url(https://img.freepik.com/free-vector/white-background-with-hexagonal-line-pattern-design_1017-28442.jpg?w=740&t=st=1677959568~exp=1677960168~hmac=31a6cac0e944dfcf320bfb820de86cd0170438ce9123f6bbb532027db4e31a21);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 }
-.title-class{
+html{
+  font-size: 62.5%;
+}
+.load-page{
+  min-height: 100vh;
+  background: #C7E8CA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5D9C59;
+  font-size: 2.2rem;
+
+}
+.main-div{
+  min-height: 100vh;
+  background: #DDF7E3;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.child-div{
   text-align: center;
-  margin-top: 3rem;
-  
+  margin-top: 12rem;
 }
-
-.load {
-
-    
-    
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-.con-title{
-  font-size: 1.3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 540;
-
-  
-}
-.con-img{
-  width: 20%;
-  margin-top: 0.5rem;
+.child-div figure img{
+  width: 12rem;
+  height: 10rem;
   border-radius: 50%;
-  /* margin: 1.5rem; */
-
 }
-.con-b2{
-  margin: 2rem;
+.child-div figure figcaption{
+  color: #4E6E81;
+  font-size: large;
+  font-weight: bold;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+input{
+  min-width: 40rem;
+  height: 3.4rem;
+  padding: 2rem 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.4285;
+  margin-top: 2rem;
+  color: rgb(50, 50, 50);
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+input,
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  padding: 2.3rem 1.5rem;
+  outline: none;
+}
+input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+input:focus {
+  -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
 }

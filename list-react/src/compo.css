@@ -38,7 +38,7 @@ html{
   border-color: #fff transparent #fff transparent;
   animation: lds-hourglass 1.2s infinite;
 }
-@keyframes lds-hourglass {
+@keyframes lds-hourglass{
   0% {
     transform: rotate(0);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -156,6 +156,60 @@ input:focus {
   text-align: center;
 }
 
+.eachItem{
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+  margin-left: 1rem;
+  min-width: 40rem;
+  word-break: break-word;
+  background: #B4E4FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.eachItem:hover{
+  background: rgb(249, 249, 252);
+  color: #609966;;
+}
+.showItems .eachItem h3{
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.fa-trash-alt,
+.fa-edit{
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: rgb(251,251,251);
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.addItems .fa-edit{
+  color: rgb(47,214,122);
+}
+
+.fa-edit{
+  margin-left: -3.5rem;
+}
+
+.eachItem:hover .fa-trash-alt {
+  color: rgb(214, 47, 61);
+}
+
+.eachItem:hover .fa-edit {
+  color: rgb(100, 214, 47);
+}
+
+.eachItem:hover h3 {
+  color: rgb(85, 41, 220);
+}
 
 
 .btn {
@@ -215,4 +269,14 @@ input:focus {
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
+}
+.foot{
+  position: absolute;
+  font-weight: 400;
+  font-family:sans-serif;
+  
+  left: 33%;
+  bottom: 3rem;
+  
+  
 }
